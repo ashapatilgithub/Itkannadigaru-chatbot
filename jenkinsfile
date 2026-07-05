@@ -8,7 +8,7 @@ pipeline{
     stages{
         stage('Git-checkout'){
             steps{
-                git url: 'https://github.com/ManojKRISHNAPPA/Itkannadigaru-chatbot.git',branch: 'main'
+                git url: 'https://github.com/ashapatilgithub/Itkannadigaru-chatbot.git',branch: 'main'
             } 
         }
         stage('Building-Stage'){
