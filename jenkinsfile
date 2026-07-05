@@ -2,7 +2,7 @@ pipeline{
     agent any
     
     environment{
-        IMAGE_NAME = "ashapatilgithub/itkannadigaru-chat-bot:${GIT_COMMIT}"
+        IMAGE_NAME = "asha1992/itkannadigaru-chat-bot:${GIT_COMMIT}"
     }
 
     stages{
